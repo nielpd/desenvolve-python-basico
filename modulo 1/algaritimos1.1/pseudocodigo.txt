@@ -1,0 +1,25 @@
+FUNÇÃO Tabuada
+    IMPRIMIR "Escolha um dígito para multiplicar com 9!"
+    LER n
+
+    SE n > 10 ENTÃO
+        IMPRIMIR n * 9
+        RETORNAR "Fim do programa"
+    SENÃO
+    FUNÇÃO RegraMultiplicação recebe parametro n
+        s1 = n - 1          // Solução 1
+        s2 = 10 - n         // Solução 2
+        result = CONVERTA(s1) + CONVERTA(s2)  // Concatena s1 e s2
+        IMPRIMIR result
+
+        IMPRIMIR "Deseja multiplicar o primeiro algarismo por 10? (s/n):"
+        LER resposta
+
+        SE resposta == 's' ENTÃO
+            RETORNAR CONVERTA(s1 * 10) + CONVERTA(s2)
+        SENÃO
+            RETORNAR "Fim do programa"
+    FIM FUNÇÃO
+FIM FUNÇÃO
+
+IMPRIMIR Tabuada()

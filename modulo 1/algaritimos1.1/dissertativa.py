@@ -1,0 +1,19 @@
+def Tabuada():
+  n = int(input("Escolha um digito para multiplicar com 9!: "))
+  if (n > 10):
+    print(n * 9)
+    return "Fim do programa"
+  else:
+    def regraMultiplicacao(n):
+      s1 = n - 1
+      s2 = 10 - n
+      result = str(s1) + str(s2)
+      print(result)
+      resposta = str(input("Deseja Multiplicar o primeiro algarismo por 10? (s/n)"))
+      if resposta == 's':
+        return str(s1 * 10) + str(s2)
+      else:
+        return "Fim do programa"
+    return regraMultiplicacao(n)
+
+print(Tabuada())
