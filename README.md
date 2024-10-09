@@ -8,7 +8,7 @@ Bem-vindo(a)! Este repositório faz parte do meu aprendizado no curso **[Program
 
 - **Cidade**: 🌍 Itabira, Minas Gerais
 - **Curso**: 💻 _Programação Básica com Python_
-- **Número de Matrícula**: 🆔 PDITA611
+- **Número de Matrícula**: 🆔 PDITA570
 
 ## 💡 **Vamos nos Conectar?**
 
