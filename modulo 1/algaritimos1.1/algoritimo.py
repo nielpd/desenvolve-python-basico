@@ -12,8 +12,10 @@ def Tabuada():
       resposta = str(input("Deseja Multiplicar o primeiro algarismo por 10? (s/n)"))
       if resposta == 's':
         return str(s1 * 10) + str(s2)
-      else:
+      elif resposta == 'n':
         return "Fim do programa"
+      else:
+        return "Resposta não reconhecida, Fim do programa"
     return regraMultiplicacao(n)
 
 print(Tabuada())
