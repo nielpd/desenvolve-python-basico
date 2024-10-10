@@ -6,4 +6,3 @@ for i in range(3):
   saldo = saldo + (saldo * juros)
 
 print("seu novo saldo após 3 meses é:", saldo)
-
