@@ -6,4 +6,4 @@ Area = comprimento * largura
 
 Preco = Area * precoM2
 
-print(f"O terreno tem {Area} m2 e vai custar {Preco} reais")
+print(f"O terreno tem {Area} m2 e vai custar {Preco:,.2f} reais")
