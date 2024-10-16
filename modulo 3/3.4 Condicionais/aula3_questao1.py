@@ -1,5 +1,4 @@
-Num = int(input("digite um número: "))
-if Num % 2 == 0:
-  print("O número e par")
-else:
-  print("O número e impar")
+n1, n2 = int(input("digite um valor:")), int(input("digite outro valor:"))
+result = n1 + n2
+
+print(f"{result} é par" if result % 2 == 0 else f"{result} é impar")
