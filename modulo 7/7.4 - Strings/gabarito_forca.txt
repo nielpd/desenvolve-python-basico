@@ -1,0 +1,10 @@
+bola
+uva
+gato
+cachorro
+elefante
+girafa
+arvore
+controle
+casa
+janela
